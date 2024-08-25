@@ -25,3 +25,7 @@ Este site oferece três tipos principais de pesquisa, assim como o Google. Aqui 
     - CSS
     - SASS
     - TypeScript
+
+4. **Como ter acesso ao site**
+    - Uma da opções é clonar o repositório na sua máquina local
+    - Ou acesse o seguinte link: https://projeto1-tic36.vercel.app/
