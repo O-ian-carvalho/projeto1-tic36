@@ -16,7 +16,7 @@ Este site oferece três tipos principais de pesquisa, assim como o Google. Aqui 
 
 
 
-3. **Aparência:**
+2. **Aparência:**
     - Clique no botão "Ativar modo escuro" para mudar para o modo noturno.
     - Clique no botão "Ativar modo claro" para mudar para o modo branco.
 
@@ -27,5 +27,5 @@ Este site oferece três tipos principais de pesquisa, assim como o Google. Aqui 
     - TypeScript
 
 4. **Como ter acesso ao site**
-    - Uma da opções é clonar o repositório na sua máquina local
+    - Uma da opções é clonar o repositório, e rodar na sua máquina local.
     - Ou acesse o seguinte link: https://projeto1-tic36.vercel.app/
