@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
-        <title>Image Search</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Pesquisa de imagem</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <nav>
             <div>
                 <ul>
-                    <li><a href="index.html">Back</a></li>
-                    <li><a href="avancada.html">Advanced</a></li>
-                    <img src="https://static.thenounproject.com/png/3700268-200.png" alt="">
+                    <li><a class="link" href="index.html">Voltar</a></li>
+                    <li><a class="link" href="avancada.html">Avançado</a></li>
+                    <img id="menu" src="https://static.thenounproject.com/png/3700268-200.png" alt="">
                     <li><div id="profile"></div></li>
                     
                 </ul>
@@ -23,12 +23,14 @@
                 <input type="text" name="q">
                 <input type="submit" value="🔍">
                 <input type="hidden" name="tbm" value="isch">
-                <div>
-                    <input  value="I'm feeling lucky" name="btnI" type="submit" >
-                </div>
+               
                 
             </form>
         </main>
-        
+        <div id="modos">
+            <button id="modoclick">Ativar Modo Escuro</button>
+        </div>
+        <script src="scripts/script.js"></script>
+
     </body>
 </html>

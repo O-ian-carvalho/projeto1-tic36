@@ -1,46 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
-        <title>Image Search</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Pesquisa Avançada</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <nav style="justify-content: space-between; ">
             <h1 style="font-size: 25pt; margin-top: 0px;"><span id="g">G</span><span id="o">o</span><span id="o2">o</span><span id="g">g</span><span id="l">l</span><span id="e">e</span></h1>
             <div>
                 <ul>                    
-                    <li><a href="images.html">Images</a></li>
-                    <li><a href="index.html">Back</a></li>
-                    <img src="https://static.thenounproject.com/png/3700268-200.png" alt="">
+                    <li><a class="link" href="images.html">Imagens</a></li>
+                    <li><a class="link" href="index.html">Voltar</a></li>
+                    <img id="menu" src="https://static.thenounproject.com/png/3700268-200.png" alt="">
                     <li><div id="profile"></div></li>               
                 </ul>
             </div>
         </nav>
         <div id="adavneced">
-            <h2>Advanced Search</h2>
+            <h2>Pesquisa avançada</h2>
         </div>
         <main style="align-items: left; margin-left: 50px; text-align: left; width: 800px;">
             <form id="avan" action="https://www.google.com/search" method="get">
                 <div>
-                    <label>all these words:</label>
+                    <label>Todas essas palavras:</label>
                     <input type="text" name="as_q">
                 </div>
                 <div>
-                    <label>this exact word or phrase:</label>
+                    <label>Essa exata palavra ou frase:</label>
                     <input type="text" name="as_epq">
                 </div>
                 <div>
-                    <label>any of these words: </label>
+                    <label>Alguma dessas palavras: </label>
                     <input type="text" name="as_oq">
                 </div>
                 <div>
-                    <label>none of these words:</label>
+                    <label>Nenhuma dessas palavras:</label>
                     <input type="text" name="as_eq">
                 </div>
                 
-                <input style="width: 100px;" type="submit" value="Search">
+                <input style="width: 100px;" type="submit" value="Pesquisar">
             </form>
         </main>
-        
+        <div id="modos">
+            <button id="modoclick">Ativar Modo Escuro</button>
+        </div>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
